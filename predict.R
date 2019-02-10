@@ -38,11 +38,11 @@ searchfun <- function(cleantext, bigram, trigram, quadgram) {
         searchresult <- bigram[grepl(searchtext, bigram$prevwords),]
         
         if (nrow(searchresult) == 1) predictword <- searchresult$lastword
-        else predictword <- NA
+        else predictword <- 'the'
     } 
     
-    if (k==0) predictword <- NA
+    if (k==0) predictword <- 'No Input...'
     
-    if (is.na(predictword)) predictword <- 'No prediction...'
+    #if (is.na(predictword)) predictword <- 'No prediction...'
     predictword
 }

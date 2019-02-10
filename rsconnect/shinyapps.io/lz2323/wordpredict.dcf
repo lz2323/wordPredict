@@ -5,8 +5,8 @@ account: lz2323
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 704365
-bundleId: 1866557
+bundleId: 1867217
 url: https://lz2323.shinyapps.io/wordpredict/
-when: 1549771185.66554
+when: 1549816226.33735
 asMultiple: FALSE
 asStatic: FALSE
